@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartApp"
+    android:id="@+id/parentApp"
+
+    android:background="@drawable/pozadina"
+    android:orientation="vertical"
+    android:paddingTop="0dp"
+    android:paddingBottom="50dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+
+
+>
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layoutmenu"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+       >
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="50dp"
+
+
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/specialno_dugmence"
+            android:cursorVisible="true"
+            android:gravity="center_horizontal"
+            android:text="MojProfil"
+            android:textAlignment="center"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_weight="1"
+            android:text="Rang: "
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/Rang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="22dp"
+            android:layout_toRightOf="@+id/text1"
+            android:layout_weight="1"
+            android:text="NO.1"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:text="Igrac: "
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ImePrezime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textView3"
+            android:layout_weight="1"
+            android:text="Nikola Tasic"
+            android:textColor="#fff"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        tools:ignore="MissingConstraints">
+
+
+        <Button
+            android:id="@+id/igrajSam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="16dp"
+            android:layout_weight="0.1"
+            android:background="@drawable/fragment_uspesna_reg"
+            android:text="IGRAJ SAM"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/igrajSNekim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/fragment_uspesna_reg"
+            android:text="IGRAJ S NEKIM"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:layout_weight="0.1"
+            android:layout_marginTop="200dp"
+           ></Button>
+        <Button
+            android:id="@+id/btnrang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/fragment_uspesna_reg"
+            android:text="RANG LISTA"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_marginTop="100dp">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/logOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fragment_uspesna_reg"
+            android:text="ODJAVI SE"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:layout_marginTop="300dp">
+        </Button>
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

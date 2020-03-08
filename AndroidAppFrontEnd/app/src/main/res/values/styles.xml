@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!--buttons color-->
+        <item name="colorAccent">#FFFFFF</item>
+        <!--title and message color-->
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <!--dialog background-->
+        <item name="android:windowBackground">@drawable/izgleddialoga</item>
+    </style>
+
+<!--    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">-->
+<!--        &lt;!&ndash;buttons color&ndash;&gt;-->
+<!--        <item name="colorAccent">@color/textColor</item>-->
+<!--        &lt;!&ndash;title and message color&ndash;&gt;-->
+<!--        <item name="android:textColorPrimary">@color/textColor</item>-->
+<!--        &lt;!&ndash;dialog background&ndash;&gt;-->
+<!--        <item name="android:windowBackground">@drawable/dialogback</item>-->
+<!--    </style>-->
+
+
+</resources>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Singup_form"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@color/backGround">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registracija"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorPrimary"
+        android:textCursorDrawable="@color/colorPrimary"
+
+        android:layout_marginTop="10dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/imeP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ime i prezime"
+            android:textColorHint="@color/colorPrimary"
+
+            android:inputType="text"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/colorPrimary"
+        android:focusableInTouchMode="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/korisnickoI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+
+
+            android:hint="Korisnicko ime"
+            android:inputType="text"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/colorPrimary"
+        android:focusableInTouchMode="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/lozinka1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="lozinka"
+            android:inputType="textPassword"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorPrimary">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/lozinka2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Potvrdite lozinku"
+            android:inputType="textPassword"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/colorPrimary"
+        android:focusableInTouchMode="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email_singup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+
+            android:hint="Email"
+            android:inputType="text"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <CheckBox
+        android:id="@+id/checkBoxPotvrda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Potvrdite da su uneti podaci tacni"
+        android:textColor="#009688"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/Obavestenje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Molimo vas potvrdite da su uneti podaci tacni"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:textColor="@color/upozorenje"/>
+
+    <Button
+        android:id="@+id/prijaviSe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rregistruj se"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/dugme"/>
+
+    <TextView
+        android:id="@+id/labelO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/upozorenje"
+        android:textSize="20sp"
+        android:textAlignment="center"
+
+        />
+
+</LinearLayout>

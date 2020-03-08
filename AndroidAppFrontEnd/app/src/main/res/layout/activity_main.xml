@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/baseAc"
+        android:background="@color/backGround">
+
+        <TableLayout
+            android:id="@+id/tabela"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerInParent="true">
+
+        </TableLayout>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+
+            >
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/timer"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            ></androidx.appcompat.widget.AppCompatImageView>
+
+            <Chronometer
+                android:id="@+id/chronometer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:textSize="20sp">
+
+            </Chronometer>
+
+        </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/ponovo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ponovi" />
+
+</RelativeLayout>

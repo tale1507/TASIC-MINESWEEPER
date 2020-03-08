@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:paddingLeft="20dp"
+    android:layout_marginTop="6dp"
+
+    android:paddingRight="20dp"
+    android:background="@drawable/itemlayout">
+
+
+    <TextView
+        android:id="@+id/redniBroj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="1."
+        android:textColor="#fff"
+
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:id="@+id/usernameU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/redniBroj"
+        android:text="Tale"
+        android:textColor="#fff"
+
+        android:layout_centerVertical="true"/>
+
+    <Button
+        android:id="@+id/izazovi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textColor="#585858"
+        android:text="Izazovi"
+        android:background="@drawable/izazovi_izgled"/>
+
+</RelativeLayout>

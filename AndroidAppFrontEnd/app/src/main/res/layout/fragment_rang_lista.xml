@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:layout_centerInParent="true"
+
+    tools:context=".rangLIsta">
+<RelativeLayout
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parentLayout"
+    android:layout_marginTop="50dp"
+
+
+    android:background="#C7C6C6"
+
+    >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RangView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>
+
+</FrameLayout>

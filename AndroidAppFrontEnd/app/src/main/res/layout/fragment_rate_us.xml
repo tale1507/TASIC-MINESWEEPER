@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    tools:context=".rateUsF"
+    android:layout_centerInParent="true"
+    android:background="@drawable/rate_us">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="TASICMINESWEEPER"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#3F3F3F"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="Ocenite nasu igricu"
+        android:textSize="25sp"
+        android:textColor="#3F3F3F"
+        android:textStyle="bold"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:numStars="5"
+        android:stepSize="0.5"
+        android:rating="2.5"
+        android:progressTint="#E2F74D"/>
+
+    <Button
+        android:id="@+id/oceni_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OCENI"
+        android:background="@drawable/izgleddialoga"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
+
+</FrameLayout>
